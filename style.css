@@ -1,0 +1,134 @@
+/* reset css */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 50px 60px;
+}
+
+/* navbar */
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div ul.list{
+   display: flex;
+   justify-content: space-evenly;
+   list-style: none;
+}
+
+.list-item{
+    margin-left: 40px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+}
+
+.list-item:hover{
+    font-weight: bold;
+    font-size: 21px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.button-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-button{
+    width: 150px;
+    height: 34px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+/* Banner */
+
+.hero-container{
+    position: relative;
+    display: block;
+    padding: 30px;
+}
+.square >img{
+    width: 350px;
+}
+.square{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 80px;
+    z-index: -1;
+}
+
+.hero-container div > img{
+    position: absolute;
+    width: 350px;
+}
+
+.globe{
+    margin-left: 50%;
+}
+.globe > img{
+    width: 50px;
+}
+
+.star{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 50px;
+}
+.star > img{
+    width: 50px;
+} 
+
+.hero-container-right{
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-heading{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+}
+
+.hero-description{
+    width: 600px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+.button-email{
+    padding: 5px 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+.button-join{
+    padding: 5px 10px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #000000;
+    margin-left: 10px;
+}
+div > h4{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight:500;
+    margin-top: 60px;
+}
