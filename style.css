@@ -132,3 +132,57 @@ div > h4{
     font-weight:500;
     margin-top: 60px;
 }
+
+@media screen and (max-width : 667px) {
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .container{
+        padding: 30px;
+    }
+    .navbar-container div img{
+        width: 80px;
+    }
+    .navbar-container div .list{
+        display: none;
+    }
+    .hero-container div img{
+        width: 280px;
+    }
+    .hero-container-right{
+        width: 300px;
+        margin-left: 0;
+        margin-top: 450px;
+    }
+    .square img{
+        width: 280px;
+        position: absolute;
+        left: -35px;
+        top: -45px;
+    }
+    .globe img { 
+        width: 30px;
+    }
+    .hero-heading{
+        font-size: 22px;
+    }
+    .hero-description{
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    .button-email{
+        margin-left: 15%;
+    }
+    .button-join{
+        margin-top: 5px;
+        margin-left: 25%;
+    }
+    .icons span img{
+        width: 30px;
+    }
+    .contact-heading{
+        margin-top: 10px;
+    }
+}
